@@ -147,6 +147,7 @@ function keyPressed() {
         case 'h':
             mgr.showScene(help);
             break;
+            
 
         case '.':
             console.log("Scene object:", mgr.scene);
