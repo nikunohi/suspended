@@ -10,6 +10,7 @@ let snd1, snd2;
 let fontRegular;
 
 let cnv;
+let scans = {};
 
 
 // var duration;
@@ -26,7 +27,43 @@ function preload() {
     snd1 = loadSound("assets/wind.mp3");
     snd2 = loadSound("assets/requestSent.mp3");
     snd3 = loadSound("assets/wood.mp3")
+
     fontRegular = loadFont('assets/Epilogue-VariableFont_wght.ttf')
+    scans.frame09 = loadImage(['./assets/frames-individual-09.png']);
+    scans.frame10 = loadImage(['./assets/frames-individual-10.png']);
+    scans.frame11 = loadImage(['./assets/frames-individual-11.png']);
+    scans.frame12 = loadImage(['./assets/frames-individual-12.png']);
+    scans.frame13 = loadImage(['./assets/frames-individual-13.png']);
+    scans.frame14 = loadImage(['./assets/frames-individual-14.png']);
+    scans.frame15 = loadImage(['./assets/frames-individual-15.png']);
+    scans.frame16 = loadImage(['./assets/frames-individual-16.png']);
+    scans.frame17 = loadImage(['./assets/frames-individual-17.png']);
+    scans.frame18 = loadImage(['./assets/frames-individual-18.png']);
+    scans.frame19 = loadImage(['./assets/frames-individual-19.png']);
+    scans.frame20 = loadImage(['./assets/frames-individual-20.png']);
+    scans.frame21 = loadImage(['./assets/frames-individual-21.png']);
+    scans.frame22 = loadImage(['./assets/frames-individual-22.png']);
+    scans.frame23 = loadImage(['./assets/frames-individual-23.png']);
+    scans.frame24 = loadImage(['./assets/frames-individual-24.png']);
+    scans.frame25 = loadImage(['./assets/frames-individual-25.png']);
+    scans.frame26 = loadImage(['./assets/frames-individual-26.png']);
+    scans.frame27 = loadImage(['./assets/frames-individual-27.png']);
+    scans.frame28 = loadImage(['./assets/frames-individual-28.png']);
+    scans.frame29 = loadImage(['./assets/frames-individual-29.png']);
+    scans.frame30 = loadImage(['./assets/frames-individual-30.png']);
+    scans.frame31 = loadImage(['./assets/frames-individual-31.png']);
+    scans.frame32 = loadImage(['./assets/frames-individual-32.png']);
+    scans.frame33 = loadImage(['./assets/frames-individual-33.png']);
+    scans.frame34 = loadImage(['./assets/frames-individual-34.png']);
+    scans.frame35 = loadImage(['./assets/frames-individual-35.png']);
+    scans.frame36 = loadImage(['./assets/frames-individual-36.png']);
+    scans.frame37 = loadImage(['./assets/frames-individual-37.png']);
+    scans.frame38 = loadImage(['./assets/frames-individual-38.png']);
+    scans.frame39 = loadImage(['./assets/frames-individual-39.png']);
+    scans.frame40 = loadImage(['./assets/frames-individual-40.png']);
+
+
+
 
 
     //video.hide();
@@ -120,7 +157,7 @@ function draw() {
 
     // passthe current draw function into the SceneManager
     mgr.draw();
-    
+
 }
 
 function mousePressed() {
@@ -147,7 +184,7 @@ function keyPressed() {
         case 'h':
             mgr.showScene(help);
             break;
-            
+
 
         case '.':
             console.log("Scene object:", mgr.scene);

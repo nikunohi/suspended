@@ -479,7 +479,7 @@ function sybridge() {
 
       if (video2.time() >= 1.8) {
         video2.stop();
-        this.sceneManager.showScene(syframes09);
+        this.sceneManager.showScene(syframes40);
         return;
       }
     }
@@ -553,8 +553,7 @@ function syframes09() {
     console.log("We are at the frame carousel");
 
 
-
-    frame09 = loadImage(['./assets/frames-individual-09.png']);
+    // frame09 = loadImage(['./assets/frames-individual-09.png']);
     outputVolume(.25);
 
 
@@ -587,7 +586,7 @@ function syframes09() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame09, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame09, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -706,7 +705,7 @@ function syframes10() {
 
 
 
-    frame11 = loadImage(['./assets/frames-individual-11.png']);
+    // frame11 = loadImage(['./assets/frames-individual-11.png']);
     outputVolume(.25);
 
 
@@ -739,7 +738,7 @@ function syframes10() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame11, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame10, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -858,7 +857,7 @@ function syframes11() {
 
 
 
-    frame11 = loadImage(['./assets/frames-individual-11.png']);
+    // frame11 = loadImage(['./assets/frames-individual-11.png']);
     outputVolume(.25);
 
 
@@ -891,7 +890,7 @@ function syframes11() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame11, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame11, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1012,7 +1011,7 @@ function syframes12() {
 
 
 
-    frame12 = loadImage(['./assets/frames-individual-12.png']);
+    // frame12 = loadImage(['./assets/frames-individual-12.png']);
     outputVolume(.25);
 
 
@@ -1045,7 +1044,7 @@ function syframes12() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame12, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame12, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1164,7 +1163,7 @@ function syframes13() {
 
 
 
-    frame13 = loadImage(['./assets/frames-individual-13.png']);
+    // frame13 = loadImage(['./assets/frames-individual-13.png']);
     outputVolume(.25);
 
 
@@ -1197,7 +1196,7 @@ function syframes13() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame13, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame13, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1315,7 +1314,7 @@ function syframes14() {
 
 
 
-    frame14 = loadImage(['./assets/frames-individual-14.png']);
+    // frame14 = loadImage(['./assets/frames-individual-14.png']);
     outputVolume(.25);
 
 
@@ -1348,7 +1347,7 @@ function syframes14() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame14, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame14, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1467,7 +1466,7 @@ function syframes15() {
 
 
 
-    frame15 = loadImage(['./assets/frames-individual-15.png']);
+    // frame15 = loadImage(['./assets/frames-individual-15.png']);
     outputVolume(.25);
 
 
@@ -1500,7 +1499,7 @@ function syframes15() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame15, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame15, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1619,7 +1618,7 @@ function syframes16() {
 
 
 
-    frame16 = loadImage(['./assets/frames-individual-16.png']);
+    // frame16 = loadImage(['./assets/frames-individual-16.png']);
     outputVolume(.25);
 
 
@@ -1652,7 +1651,7 @@ function syframes16() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame16, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame16, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1771,7 +1770,7 @@ function syframes17() {
 
 
 
-    frame17 = loadImage(['./assets/frames-individual-17.png']);
+    // frame17 = loadImage(['./assets/frames-individual-17.png']);
     outputVolume(.25);
 
 
@@ -1804,7 +1803,7 @@ function syframes17() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame17, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame17, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -1924,7 +1923,7 @@ function syframes18() {
 
 
 
-    frame18 = loadImage(['./assets/frames-individual-18.png']);
+    // frame18 = loadImage(['./assets/frames-individual-18.png']);
     outputVolume(.25);
 
 
@@ -1957,7 +1956,7 @@ function syframes18() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame18, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame18, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2076,7 +2075,7 @@ function syframes19() {
 
 
 
-    frame19 = loadImage(['./assets/frames-individual-19.png']);
+    // frame19 = loadImage(['./assets/frames-individual-19.png']);
     outputVolume(.25);
 
 
@@ -2109,7 +2108,7 @@ function syframes19() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame19, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame19, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2228,7 +2227,7 @@ function syframes20() {
 
 
 
-    frame20 = loadImage(['./assets/frames-individual-20.png']);
+    // frame20 = loadImage(['./assets/frames-individual-20.png']);
     outputVolume(.25);
 
 
@@ -2261,7 +2260,7 @@ function syframes20() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame20, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame20, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2380,7 +2379,7 @@ function syframes21() {
 
 
 
-    frame21 = loadImage(['./assets/frames-individual-21.png']);
+    // frame21 = loadImage(['./assets/frames-individual-21.png']);
     outputVolume(.25);
 
 
@@ -2413,7 +2412,7 @@ function syframes21() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame21, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame21, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2532,7 +2531,7 @@ function syframes22() {
 
 
 
-    frame22 = loadImage(['./assets/frames-individual-22.png']);
+    // frame22 = loadImage(['./assets/frames-individual-22.png']);
     outputVolume(.25);
 
 
@@ -2565,7 +2564,7 @@ function syframes22() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame22, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame22, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2684,7 +2683,7 @@ function syframes23() {
 
 
 
-    frame23 = loadImage(['./assets/frames-individual-23.png']);
+    // frame23 = loadImage(['./assets/frames-individual-23.png']);
     outputVolume(.25);
 
 
@@ -2717,7 +2716,7 @@ function syframes23() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame23, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame23, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2836,7 +2835,7 @@ function syframes23() {
 
 
 
-    frame23 = loadImage(['./assets/frames-individual-23.png']);
+    // frame23 = loadImage(['./assets/frames-individual-23.png']);
     outputVolume(.25);
 
 
@@ -2869,7 +2868,7 @@ function syframes23() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame23, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame23, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -2987,7 +2986,7 @@ function syframes24() {
 
 
 
-    frame24 = loadImage(['./assets/frames-individual-24.png']);
+    // frame24 = loadImage(['./assets/frames-individual-24.png']);
     outputVolume(.25);
 
 
@@ -3020,7 +3019,7 @@ function syframes24() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame24, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame24, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3139,7 +3138,7 @@ function syframes25() {
 
 
 
-    frame26 = loadImage(['./assets/frames-individual-26.png']);
+    // frame26 = loadImage(['./assets/frames-individual-26.png']);
     outputVolume(.25);
 
 
@@ -3172,7 +3171,7 @@ function syframes25() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame26, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame26, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3291,7 +3290,7 @@ function syframes26() {
 
 
 
-    frame26 = loadImage(['./assets/frames-individual-26.png']);
+    // frame26 = loadImage(['./assets/frames-individual-26.png']);
     outputVolume(.25);
 
 
@@ -3324,7 +3323,7 @@ function syframes26() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame26, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame26, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3443,7 +3442,7 @@ function syframes27() {
 
 
 
-    frame27 = loadImage(['./assets/frames-individual-27.png']);
+    // frame27 = loadImage(['./assets/frames-individual-27.png']);
     outputVolume(.25);
 
 
@@ -3476,7 +3475,7 @@ function syframes27() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame27, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame27, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3594,7 +3593,7 @@ function syframes28() {
 
 
 
-    frame28 = loadImage(['./assets/frames-individual-28.png']);
+    // frame28 = loadImage(['./assets/frames-individual-28.png']);
     outputVolume(.25);
 
 
@@ -3627,7 +3626,7 @@ function syframes28() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame28, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame28, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3746,7 +3745,7 @@ function syframes29() {
 
 
 
-    frame29 = loadImage(['./assets/frames-individual-29.png']);
+    // frame29 = loadImage(['./assets/frames-individual-29.png']);
     outputVolume(.25);
 
 
@@ -3779,7 +3778,7 @@ function syframes29() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame29, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame29, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -3897,7 +3896,7 @@ function syframes30() {
 
 
 
-    frame30 = loadImage(['./assets/frames-individual-30.png']);
+    // frame30 = loadImage(['./assets/frames-individual-30.png']);
     outputVolume(.25);
 
 
@@ -3930,7 +3929,7 @@ function syframes30() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame30, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame30, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4048,7 +4047,7 @@ function syframes31() {
 
 
 
-    frame31 = loadImage(['./assets/frames-individual-31.png']);
+    // frame31 = loadImage(['./assets/frames-individual-31.png']);
     outputVolume(.25);
 
 
@@ -4081,7 +4080,7 @@ function syframes31() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame31, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame31, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4199,7 +4198,7 @@ function syframes32() {
 
 
 
-    frame32 = loadImage(['./assets/frames-individual-32.png']);
+    // frame32 = loadImage(['./assets/frames-individual-32.png']);
     outputVolume(.25);
 
 
@@ -4232,7 +4231,7 @@ function syframes32() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame32, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame32, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4353,7 +4352,7 @@ function syframes33() {
 
 
 
-    frame33 = loadImage(['./assets/frames-individual-33.png']);
+    // frame33 = loadImage(['./assets/frames-individual-33.png']);
     outputVolume(.25);
 
 
@@ -4386,7 +4385,7 @@ function syframes33() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame33, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame33, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4511,7 +4510,7 @@ function syframes34() {
 
 
 
-    frame34 = loadImage(['./assets/frames-individual-34.png']);
+    // frame34 = loadImage(['./assets/frames-individual-34.png']);
     outputVolume(.25);
 
 
@@ -4544,7 +4543,7 @@ function syframes34() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame34, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame34, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4664,7 +4663,7 @@ function syframes35() {
 
 
 
-    frame35 = loadImage(['./assets/frames-individual-35.png']);
+    // frame35 = loadImage(['./assets/frames-individual-35.png']);
     outputVolume(.25);
 
 
@@ -4697,7 +4696,7 @@ function syframes35() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame35, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame35, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4818,7 +4817,7 @@ function syframes36() {
 
 
 
-    frame36 = loadImage(['./assets/frames-individual-36.png']);
+    // frame36 = loadImage(['./assets/frames-individual-36.png']);
     outputVolume(.25);
 
 
@@ -4851,7 +4850,7 @@ function syframes36() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame36, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame36, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -4971,7 +4970,7 @@ function syframes37() {
 
 
 
-    frame37 = loadImage(['./assets/frames-individual-37.png']);
+    // frame37 = loadImage(['./assets/frames-individual-37.png']);
     outputVolume(.25);
 
 
@@ -5004,7 +5003,7 @@ function syframes37() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame37, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame37, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -5123,7 +5122,7 @@ function syframes38() {
 
 
 
-    frame37 = loadImage(['./assets/frames-individual-38.png']);
+    // frame37 = loadImage(['./assets/frames-individual-38.png']);
     outputVolume(.25);
 
 
@@ -5156,7 +5155,7 @@ function syframes38() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame37, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame38, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -5275,7 +5274,7 @@ function syframes39() {
 
 
 
-    frame39 = loadImage(['./assets/frames-individual-39.png']);
+    // frame39 = loadImage(['./assets/frames-individual-39.png']);
     outputVolume(.25);
 
 
@@ -5308,7 +5307,7 @@ function syframes39() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame39, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame39, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
@@ -5428,7 +5427,7 @@ function syframes40() {
 
 
 
-    frame40 = loadImage(['./assets/frames-individual-40.png']);
+    // frame40 = loadImage(['./assets/frames-individual-40.png']);
     outputVolume(.25);
 
 
@@ -5461,7 +5460,7 @@ function syframes40() {
     translate(-mx, -my);
     translate(x, y);
 
-    image(frame40, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
+    image(scans.frame40, 0, 0, IMAGE_WIDTH, IMAGE_HEIGHT);
 
     if (mouseIsPressed && isMouseInsideCanvas()) {
       x += (mouseX - pmouseX) / sf;
