@@ -204,7 +204,7 @@ function help() {
 
   this.enter = function () {
     console.log("We are at entering for help");
-    video3 = createVideo(['/assets/help-bg-loop.mp4']);
+    video3 = createVideo(['./assets/help-bg-loop.mp4']);
     video3.volume(0);
     video3.hide();
     video3.loop();
@@ -455,7 +455,7 @@ function sybridge() {
     textAlign(CENTER);
     textSize(30);
     noStroke();
-    video2 = createVideo(['/assets/webp/Final-Com-Fombined-Bridge.webm']);
+    video2 = createVideo(['./assets/webp/Final-Com-Fombined-Bridge.webm']);
     video2.volume(0);
     video2.hide();
     video2.loop();
