@@ -33,7 +33,7 @@ function splash() {
     textAlign(CENTER);
     textSize(30);
     noStroke();
-    video = createVideo(['./assets/webp/final-intro.webm']);
+    video = createVideo(['./assets/webp/Final-Intro.webm']);
     video.volume(0);
     video.hide();
     video.loop();
