@@ -85,11 +85,11 @@ function setup() {
     mgr = new SceneManager();
 
 
-    ghosty = createSprite(0, 0);
-    ghosty.addAnimation("normal", "assets/ghost_spin0001.png", "assets/ghost_spin0003.png");  // first image, and last image
-    ghosty.addAnimation("stand", "assets/ghost_standing0001.png", "assets/ghost_standing0007.png"); // first image, and last image
+    // ghosty = createSprite(0, 0);
+    // ghosty.addAnimation("normal", "assets/ghost_spin0001.png", "assets/ghost_spin0003.png");  // first image, and last image
+    // ghosty.addAnimation("stand", "assets/ghost_standing0001.png", "assets/ghost_standing0007.png"); // first image, and last image
     // make the sprite invisible until you need it.
-    ghosty.visible = false;
+    // ghosty.visible = false;
 
     // Preload scenes. Preloading is normally optional
     // ... but needed if showNextScene() is used.

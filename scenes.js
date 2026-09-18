@@ -40,7 +40,7 @@ function splash() {
 
     snd1.stop();
 
-    ghosty.visible = false;
+    // ghosty.visible = false;
 
 
   }
@@ -462,7 +462,7 @@ function sybridge() {
 
     snd1.stop();
 
-    ghosty.visible = false;
+    // ghosty.visible = false;
 
 
   }
